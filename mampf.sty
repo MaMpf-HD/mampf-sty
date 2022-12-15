@@ -44,7 +44,7 @@
 \IfFileExists{\jobname.mampf}{\embedfile[filespec=structure.mampf]{\jobname.mampf}}{\PackageWarningNoLine{mampf}{No file \jobname.mampf found. Run again.}}
 \newwrite\outfile
 \immediate\openout\outfile=\jobname.mampf
-\immediate\write\outfile{MaMpf-Version|2.11}
+\immediate\write\outfile{MaMpf-Version|2.12}
 }
 \AtEndDocument{%
 \immediate\closeout\outfile%
